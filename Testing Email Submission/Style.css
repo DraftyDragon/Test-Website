@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding:0;
+    text-align:center;
+    color:#ffffff;
+    background:url(Sky.jpg) no-repeat 200px, -280px;
+    background-size:cover;
+    background-position: center;
+    font-family: Arial;
+}
+.contact-title{
+    margin-top:100px;
+    color:#ffffff;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+.contact-title h1{
+    font-size:32px;
+    line-height: 10px;
+}
+.contact-title h2{
+    font-size:16px;
+}
+
+.form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    color:#ffffff;
+}
+::placeholder{
+    color:white;
+    opacity: .67;
+}
+.form-control{
+    width:600px;
+    background:transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid green;
+    color:#ffffff;
+    font-size:16px;
+}
+input{
+    height:45px;
+}
+form.submit{
+    background:#e8491d;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height:50px;
+    margin-top:20px;
+}
+form .submit{
+    background-color:#e8491d;
+    cursor:pointer;
+}
